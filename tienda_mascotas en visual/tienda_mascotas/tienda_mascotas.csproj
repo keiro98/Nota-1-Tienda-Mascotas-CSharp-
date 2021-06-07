@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9C0F66D-32F3-4568-B9DA-B6AA1F763748}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>tienda_mascotas</RootNamespace>
+    <AssemblyName>tienda_mascotas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro.Designer.cs">
+      <DependentUpon>registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <CodeAnalysisDictionary Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </CodeAnalysisDictionary>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro.resx">
+      <DependentUpon>registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileadmin_redakteure__processed__5_1_csm_0080_Platte_bfa25a29d2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00b66d1ac26662551af857811ed6e9d3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gatitoas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b57fbd9996e24bc43bbd7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\df3bce_48ebd08b6de547ff98c4dc90f0c05c9b_mv2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rBVaVFzaXdeAVLMyAANMQuGRwg0258.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego-de-arneses-y-correas-para-mascotas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43658-4011905433318gfd_1_g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorido-mascotas-loro-jaula-estar-de-pie-perca-juguete-paj-D_NQ_NP_681924-MLC31897309405_082019-F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1025902.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Black_Paw.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtro-verde-factorled.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

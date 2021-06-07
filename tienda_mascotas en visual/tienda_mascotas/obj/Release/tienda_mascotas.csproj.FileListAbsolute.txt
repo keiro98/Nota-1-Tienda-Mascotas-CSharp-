@@ -1,0 +1,12 @@
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\bin\Release\tienda_mascotas.exe.config
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\bin\Release\tienda_mascotas.exe
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\bin\Release\tienda_mascotas.pdb
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.csprojAssemblyReference.cache
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.hueso.resources
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.login.resources
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.registro.resources
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.Properties.Resources.resources
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.csproj.GenerateResource.cache
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.exe
+C:\Users\lucas\source\repos\tienda_mascotas\tienda_mascotas\obj\Release\tienda_mascotas.pdb
